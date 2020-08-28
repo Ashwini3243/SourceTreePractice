@@ -21,6 +21,12 @@ public class StudentDaoImpl implements StudDao
         s2.setName("saurav kumar");
         s2.setAge(23);
         studentArryList.add(s2);
+
+        Student s3= new Student();
+        s3.setId(2);
+        s3.setName("Ashwini");
+        s3.setAge(23);
+        studentArryList.add(s3);
        return studentArryList;
     }
 
